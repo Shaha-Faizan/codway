@@ -1,0 +1,114 @@
+/* Common styles */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+.calculator {
+    background-color: #a2bdbe;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px; /* Default width */
+    max-width: 100%; /* Ensure it doesn't overflow on smaller screens */
+    margin: 0 auto; /* Center the calculator horizontally */
+}
+
+.result {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: right;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: inherit;
+    color: inherit;
+    text-align: inherit;
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.button {
+    padding: 15px 20px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s;
+    width: 50px;
+}
+
+.button:hover {
+    background-color: #444;
+}
+
+.equal {
+    background-color: #f7931e;
+}
+
+.operator {
+    background-color: #f15f5f;
+}
+
+.clear, .cut {
+    background-color: #e3e7f1;
+    color: #333;
+    padding: 15px;
+}
+
+.cut {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.input:focus, .result-input:focus {
+    outline: none;
+}
+
+/* Responsive styles */
+/* Responsive styles */
+/* Responsive styles */
+.sign{
+    padding: 15px;
+}
+
